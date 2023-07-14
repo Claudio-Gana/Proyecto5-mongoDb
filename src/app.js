@@ -24,5 +24,5 @@ app.use( authRoutes )
 
 const { PORT } = environment
 app.listen( PORT, () => {
-  console.log( `Aplicacióiniciada en puerto ${ PORT }` )
+  console.log( `Aplicación fue iniciada en puerto ${ PORT }` )
 } )
