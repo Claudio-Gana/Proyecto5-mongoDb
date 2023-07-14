@@ -14,7 +14,7 @@ app.use( express.json() )
 app.use( cors() )
 
 app.get( '/', function ( req, res ) {
-  return res.status( 200 ).json( { msg: "Bienvenido esto funciona" } )
+  return res.status( 200 ).json( { msg: "Bienvenido " } )
 } )
 
 app.use( usersRouter )
