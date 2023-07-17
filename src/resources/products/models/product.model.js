@@ -19,6 +19,11 @@ const postSchema = new mongoose.Schema( {
   imageUrl: {
     type: String,
     required: true
+  },
+
+  description2: {
+    type: String,
+    required: true
   }
 }, { versionKey: false, id: false, toJSON: { virtuals: true }, toObject: { virtuals: true } } )
 
